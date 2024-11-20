@@ -5,8 +5,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 body {
-    display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -15,21 +15,26 @@ body {
     background-position: center;
     margin: 0;
 }
+.logo h1 {
+    font-size: 27px;
+    color: #fff;
+    padding: 2rem 5rem;
+}
 
 section {
     position: relative;
+    margin: auto;
     max-width: 400px;
     background-color: rgba(255, 255, 255, 0.1); /* 半透明で背景を見せる */
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     backdrop-filter: blur(55px);
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 3rem;
 }
 
-h1 {
+.log {
     font-size: 2rem;
     color: #fff;
     text-align: center;

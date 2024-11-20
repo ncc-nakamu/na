@@ -7,7 +7,6 @@
 }
 
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -20,22 +19,28 @@ body {
 /* セクション（フォームを囲む部分） */
 section {
     position: relative;
+    margin: auto;
     max-width: 400px;
     background-color: rgba(255, 255, 255, 0.1); /* 半透明で背景を見せる */
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     backdrop-filter: blur(55px);
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 3rem;
 }
 
 /* タイトル */
-h1 {
+.log {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1.5rem;
+}
+
+.logo h1 {
+    font-size: 27px;
+    color: #fff;
+    padding: 2rem 5rem;
 }
 
 /* 入力ボックス */
