@@ -165,3 +165,8 @@ button:hover {
     margin-left: 20px;
 }
 
+.tameshi p {
+    writing-mode: vertical-rl;
+    font-size: 10rem;
+}
+
