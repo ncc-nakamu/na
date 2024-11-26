@@ -24,16 +24,36 @@ body {
     background-size: cover;
 }
 
+.logo {
+    position: relative; /* ロゴ部分の固定を解除 */
+    top: 2rem;
+    left: 5rem;
+}
+
+.logo h1 {
+    /* ロゴのテキストスタイリング */
+    font-size: 27px;
+    color: #fff;
+}
+
 nav {
-    /* ナビゲーションバーのスタイリング */
-    width: 100%;
+    /* ナビゲーションバーのスタイリング */ width: 100%;
     padding: 2rem 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed; /* 固定 */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* 他の要素より前面に表示 */ 
 }
 
-.logo h1 {
+.logos {
+    top: 2rem;
+    left: 5rem;
+}
+
+.logos h1 {
     /* ロゴのテキストスタイリング */
     font-size: 27px;
     color: #fff;
@@ -44,6 +64,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 3rem;
+    margin-left: 250px;
 }
 
 li a {
@@ -84,6 +105,32 @@ button:hover {
     /* ボタンのホバー時の色変更 */
     background-color: var(--back-up-color);
     color: #000;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    margin-top: 100px;
+    position: fixed;/* 固定 */
+    top: 100px; /* ナビゲーションバーの下に配置 */
+    width: 100%; /* 幅を100%に設定 */
+}
+
+.flex-item1 {
+    color: #8B4513;
+    margin-right: 644px;
+    background: #fff;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+}
+
+.flex-item {
+    color: #8B4513;
+    margin-right: 30px;
+    background: #fff;
+    font-size: 30px;
+    writing-mode: vertical-rl;
 }
 
 .home-content {
