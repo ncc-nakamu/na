@@ -1,8 +1,8 @@
 :root {
     /* カスタムカラー変数 */
-    --text-color: #DF927D;
+    --text-color: #663300;
     --text-color-blend: #030558;
-    --back-up-color: #E7FAF9;
+    --back-up-color: #663300;
 }
 
 * {
@@ -15,6 +15,11 @@
 }
 
 body {
+    background-color: #FFF5EE;
+    color: #663300;
+}
+
+header {
     /* 背景設定 */
     width: 100%;
     height: 100vh;
@@ -69,7 +74,7 @@ ul {
 
 li a {
     /* 各ナビゲーションリンク */
-    color: #fff;
+    color: #663300;
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
@@ -132,6 +137,24 @@ button:hover {
     font-size: 30px;
     writing-mode: vertical-rl;
 }
+
+.clamh1 {
+    text-align:center;
+    padding-bottom: 30px;
+}
+
+.clam {
+    text-align:center;
+    width: 970px;
+    height: 550px;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    background-color: #fff;
+}
+.clam p{
+    text-align: left;
+}
+
 
 .home-content {
     /* ホームコンテンツのレイアウト */
